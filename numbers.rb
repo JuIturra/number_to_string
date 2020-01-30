@@ -74,7 +74,7 @@ class NumberToString
   # INPUT INTEGER
   # OUTPUT STRING
   # INGRESA UN NUMERO ENTERO Y RETORNA EL NUMERO EN PALABRAS
-  def number_to_string(number)
+  def get_number(number)
     case number
     when 0..15
       return @units[number]
